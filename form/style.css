@@ -40,7 +40,7 @@ div a.active {
     color: white;
 }
 form input {
-    /* display: block; */
+    display: block;
     width: 100%;
     padding: 10px;
     margin-bottom:15px ;
@@ -52,6 +52,7 @@ form input {
     margin-bottom: 15px; */
 /* } */
 form button {
+    display: block;
     background-image: linear-gradient(90deg, #aa44b1, #f5439b);
     border-radius: 8px;
     padding: 10px;
@@ -63,6 +64,10 @@ form button {
 form p {
     margin-bottom: 0;
     text-align: center;
+} 
+form p a {
+    color: #f5439b;
+    text-decoration: none;
 }
 
 

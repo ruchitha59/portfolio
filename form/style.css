@@ -47,10 +47,10 @@ form input {
     border:1px solid grey ;
     border-radius: 8px;
 }
-.forgot_password {
+/* .forgot_password {
     display: block;
-    margin-bottom: 15px;
-}
+    margin-bottom: 15px; */
+/* } */
 form button {
     background-image: linear-gradient(90deg, #aa44b1, #f5439b);
     border-radius: 8px;
@@ -58,6 +58,7 @@ form button {
     color: white;
     width: 100%;
     border: none;
+    margin-top: 10px
 }
 form p {
     margin-bottom: 0;

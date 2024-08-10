@@ -1,0 +1,86 @@
+* {
+    box-sizing:border-box ;
+}
+body {
+    background-color: rgb(22, 22, 81);
+}
+.division {
+    background-color: rgb(5, 5, 92);
+    /* text-align: center; */
+    margin: 20px auto 0;
+    width: 500px;
+    margin-top: 65px;
+    padding-top: 30px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px 0 black;
+    position: relative;
+}
+.division1 {
+    text-align: center;
+}
+.division1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid cyan;
+    padding: 10px;
+    margin-top: 50px;
+    transform: translate(2% , -40%);
+    margin-bottom: -60px;
+}
+h1,h3,p {
+    color: gainsboro;
+}
+h1 {
+    /* margin: auto; */
+    margin-top: 0%;
+}
+p {
+    font-size: large;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+button {
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.mess {
+    background-color: cyan;
+    padding: 10px 50px;
+    border: solid cyan;
+    color: black;
+}
+.follow {
+    background-color: rgb(5, 5, 92);
+    color: cyan;
+    border: solid cyan;
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+.skills {
+    background-color: rgb(7, 7, 63);
+    color:gainsboro ;
+    padding: 0.9px 8px ;
+}
+.skills button {
+    background-color: rgb(7, 7, 63);
+    color:gainsboro ;
+    border: solid rgb(100, 105, 105) 2px;
+    font-size: large;
+    padding: 2px 6px;
+    margin-bottom: 15px;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+span {
+    background-color: gold;
+    color:rgb(5, 5, 92) ;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: large;
+    /* margin: 50px 50px; */
+}

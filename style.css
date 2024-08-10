@@ -1,11 +1,39 @@
+/* ********** */
+/* common */
+/* ********** */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
+.wrapper {
+    background-color: yellow;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ********** */
+/* header */
+/* ********** */
+
+header {
+    background-color: red;
+    padding: 14px 0;
+}
+
+/* *********** */
+/* footer */
+/* *********** */
+
 footer {
     background-color: lightgrey;
-    padding: 14px 0px;
     text-align: center;
+    padding: 14px 0px;
 }
 
 footer p {
